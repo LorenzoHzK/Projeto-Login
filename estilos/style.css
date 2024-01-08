@@ -43,7 +43,7 @@ main{
     left: 50%;
     overflow: hidden;
 
-    background-color: white;
+    background-color: rgb(199, 190, 190);
     width: 250px;
     height: 515px;
     border-radius: 10px;
