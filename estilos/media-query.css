@@ -1,0 +1,52 @@
+@charset "UTF-8";
+
+:root{
+    --roxo: #1F1638;
+    --roxo-clarinho: #4B406B;
+    --preto: #020105;
+    --roxo-claro: #867E9E;
+    --roxo-bem-claro: #B2A7D1;
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px){
+
+    body{
+        background-image: linear-gradient(to top, var(--roxo), var(--preto), var(--roxo-clarinho));
+    }
+
+    #login{
+        width: 90vw;
+    }
+
+    section#login > div#imagem{
+        float: left;
+        width: 30%;
+        height: 100%;
+    }
+    
+    section#login > div#form{
+        float: right;
+        width: 70%;
+    }
+}
+
+@media screen and (min-width: 992px) {
+
+    body{
+        background-image: linear-gradient(to top, var(--roxo), var(--preto), var(--roxo-clarinho));
+    }
+
+    section#login {
+        width: 950px;
+    }
+    section#login > div#imagem {
+        float: left;
+        width: 50%;
+        height: 100%;
+    }
+
+    section#login > div#form{
+        float: right;
+        width: 50%;
+    }
+}
